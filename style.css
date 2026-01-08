@@ -101,7 +101,7 @@ nav .navbar .links li a:hover {
 }
 
 .navbar .logo img {
-    width: 90%;
+    width: 200px;
 }
 
 nav .navbar .nav-links {
@@ -172,8 +172,8 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .navbar .links li .sub-menu a {
     color: #fff;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .navbar .links li .sub-menu .more-arrow {
@@ -219,6 +219,10 @@ nav .navbar .links li:hover .js-sub-menu {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.search-box a {
+    color: transparent;
 }
 
 .navbar .search-box .input-box {
@@ -375,7 +379,7 @@ nav .navbar .links li:hover .js-sub-menu {
     }
     nav .navbar .links li:hover .htmlCss-sub-menu,
     nav .navbar .links li:hover .js-sub-menu {
-        display: none;
+        /* display: none; */
     }
     .navbar .nav-links.show1 .links .htmlCss-sub-menu,
     .navbar .nav-links.show3 .links .js-sub-menu,
@@ -449,7 +453,7 @@ section {
 button {
     background: linear-gradient(45deg, #9e50b0, #4f45c5);
     color: #fff;
-    padding: 14px 26px;
+    padding: 12px 26px;
     border-radius: 30px !important;
     border: none;
 }
@@ -800,7 +804,7 @@ button:hover {
 }
 
 .footer-link {
-    color: #fff;
+    color: #ffffffb3;
     text-decoration: none;
     margin-left: 15px;
     font-size: 14px;
@@ -847,7 +851,7 @@ footer hr {
 }
 
 .homesec9 button {
-    padding: 14px 50px;
+    padding: 13px 46px;
     background: #fff;
     color: #050717;
     font-size: 18px;
@@ -1214,6 +1218,9 @@ footer hr {
     }
     .navbar .search-box {
         display: none;
+    }
+    .navbar .logo img {
+        width: 180px;
     }
 }
 
