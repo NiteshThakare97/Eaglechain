@@ -17,12 +17,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Agency FB", "Arial Narrow", Arial, sans-serif;
+    font-family: "Raleway", Sans-serif;
     letter-spacing: 1px;
     /* Optional: looks good with Agency FB */
     margin-bottom: 10px;
     span {
-        font-family: "Agency FB", "Arial Narrow", Arial, sans-serif;
+        font-family: "Raleway", Sans-serif;
         letter-spacing: 1px;
     }
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .font-title {
-    font-family: "Agency FB", "Arial Narrow", Arial, sans-serif;
+    font-family: "Raleway", Sans-serif;
 }
 
 .font-body {
